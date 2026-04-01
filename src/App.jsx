@@ -21,7 +21,7 @@ import { AlertsProvider } from './context/AlertsContext'
 export default function App() {
   return (
     <AlertsProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/test00001">
         <Routes>
           <Route path="/" element={<Layout />}>
             {/* User console */}
